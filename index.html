@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body >
+        <div class="container">
+            <div class="logo">
+                <img class="logoImg" src="img/Logo.png">
+                <h1 class="tittle"> Encriptador del ChallengerOne</h1>
+            </div>
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="ingrese el texto aqui">
+            </div>
+
+            <div class="right">
+
+                <img src="img/Munieco.png" id="imgDer">
+                <h1 id="texto">Ningun mensaje fue encontrado</h1>
+                <textarea id="texto2" name="name" rows="8" cols="80"> Ingrese el texto que desee desencriptar </textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()" >copiar</button>
+
+            </div>
+
+            <div class="left-button">
+                <p>Solo minusculas sin acentos</p>
+                <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+
+            </div>
+        </div>
+
+    </body>    
+</html>
